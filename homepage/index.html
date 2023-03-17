@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/homepage/homepage.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="name-data">Make your Data</h1>
+    </header>
+    <form>
+      <h2>Please fill your data</h2>
+      <input type="text" id="addName" placeholder="Your Name" />
+      <input type="email" id="addEmail" placeholder="Your Email" />
+      <input type="number" id="addMobile" placeholder="Your Mobile Phone" />
+      <button class="adddata" type="button" onclick="addData()">
+        Add Data
+      </button>
+    </form>
+
+    <div class="container">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Setting</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+  <script src="/homepage/homepage.js"></script>
+</html>

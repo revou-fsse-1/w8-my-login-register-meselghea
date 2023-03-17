@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mesel ghea</title>
+    <link rel="stylesheet" href="/form.css" />
+  </head>
+  <body>
+    <div class="login">
+      <form name="form-login" onsubmit="store(); return false">
+        <h1>SIGNUP</h1>
+        <input name="email" type="email" id="email" placeholder="Username" />
+        <input type="password" id="pw" placeholder="Password" />
+        <div>
+          <ul class="helper-text">
+            <li class="length">Must be at least 8 characters long.</li>
+            <li class="lowercase">Must contain a lowercase letter.</li>
+            <li class="uppercase">Must contain an uppercase letter.</li>
+          </ul>
+        </div>
+        <p>already have an account?<a href="/login/">Login</a></p>
+        <input id="rgstr_btn" type="submit" value="Register" />
+      </form>
+    </div>
+    <script src="/form.js"></script>
+  </body>
+</html>

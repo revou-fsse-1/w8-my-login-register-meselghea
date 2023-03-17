@@ -1,0 +1,104 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+body {
+text-align: center; 
+margin-left: auto;
+margin-right: auto;
+background-color: #131313;
+}
+header {
+    text-align: center;
+    color: #9d297e;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    align-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-column: 1 1 1;
+    margin: auto;
+    width: 40%;
+    color: #9d297e;
+  }
+  input[type="email"] {
+    background-color: #3b4148;
+    border-radius: 0px 3px 3px 0px;
+    color: #a9a9a9;
+    margin: auto;
+    padding: 0 16px;
+    width: 40%;
+    height: 50px;
+  }
+[type="number"]{
+    background-color: #3b4148;
+    border-radius: 0px 3px 3px 0px;
+    color: #a9a9a9;
+    margin: auto;
+    padding: 0 16px;
+    width: 40%;
+    height: 50px;
+  }
+  input[type="text"]{
+    background-color: #3b4148;
+    border-radius: 0px 3px 3px 0px;
+    color: #a9a9a9;
+    margin: auto;
+    padding: 0 16px;
+    width: 40%;
+    height: 50px;
+  }
+  .adddata {
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 0, 76);
+    color: white;
+    width: 40%;
+    
+  }
+  
+  .delete {
+    background-color: rgb(0, 94, 255);
+    color: white;
+  }
+  
+  .edit {
+    background-color: #a23ab9;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    margin-top: 20px;
+    width: 50%;
+    background-color: #9d297e;
+    color: aliceblue;
+  }
+  
+  th {
+    padding: 20px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid rgb(70, 68, 68);
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 10px;
+  }
+  
+  button {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
