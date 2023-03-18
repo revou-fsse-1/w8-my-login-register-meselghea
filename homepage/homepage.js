@@ -43,8 +43,8 @@ function addData() {
 // mengedit data dalam objek data
 function editData(index) {
   var name = prompt("new name:", data[index].name);
-  var age = prompt("Email:", data[index].email);
-  var email = prompt("Mobile:", data[index].mobile);
+  var email = prompt("Email:", data[index].email);
+  var mobile = prompt("Mobile:", data[index].mobile);
   data[index] = { name: name, email: email, mobile: mobile};
   showData();
 }
